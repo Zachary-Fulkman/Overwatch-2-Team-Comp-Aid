@@ -1,0 +1,101 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewData["Title"] = "Overwatch 2 Team Builder";
+    var allHeroes = ViewBag.AllHeroes as List<Hero>;
+    var maps = ViewBag.Maps as List<Map>;
+    var selectedMap = ViewBag.SelectedMap as string;
+    var enemyTeam = ViewBag.EnemyTeam as List<string>;
+    var suggestedTeam = ViewBag.SuggestedTeam as List<Hero>;
+}
+
+
+
+<h2>Overwatch 2 Team Builder</h2>
+
+<div style="display: flex; justify-content: space-between; gap: 40px; padding-bottom: 30px; align-items: flex-start;">
+
+    <!-- Enemy Team -->
+    <div style="flex: 1;">
+        <h3>Enemy Team</h3>
+        <div id="enemy-team" style="display: flex; gap: 10px;">
+            @for (int i = 0; i < 5; i++)
+            {
+                var heroName = i < enemyTeam.Count ? enemyTeam[i] : null;
+                <div class="drop-slot" data-slot="@i" ondrop="drop(event, @i)" ondragover="allowDrop(event)" style="width: 60px; height: 60px; border: 2px dashed gray; display: flex; align-items: center; justify-content: center;">
+                    @if (heroName != null)
+                    {
+                        <img src="/images/@(heroName.Replace(" ", "_")).png" style="width: 50px; height: 50px;" />
+                    }
+                </div>
+            }
+        </div>
+    </div>
+
+    <!-- Map Selector in the center -->
+    <div style="flex: 0.5; text-align: center;">
+        <h3>Map</h3>
+        <form asp-action="SetMap" method="post">
+            <select name="mapName" onchange="this.form.submit()" style="padding: 6px 10px; font-size: 16px;">
+                @foreach (var map in maps)
+                {
+                    <option value="@map.Name" selected="@(map.Name.ToString() == selectedMap ? "selected" : null)">
+                        @map.Name
+                    </option>
+                }
+            </select>
+        </form>
+    </div>
+
+    <!-- Suggested Team -->
+    <div style="flex: 1;">
+        <h3>Suggested Team</h3>
+        <div style="display: flex; gap: 10px; flex-wrap: wrap;">
+            @foreach (var hero in suggestedTeam)
+            {
+                <div>
+                    <img src="/images/@(hero.Name.Replace(" ", "_")).png" style="width: 50px; height: 50px;" />
+                    <div style="text-align: center;">@hero.Name<br /><small>@hero.Role</small></div>
+                </div>
+            }
+        </div>
+    </div>
+</div>
+
+<!-- All Heroes (Hero Pool) -->
+<h3>All Heroes</h3>
+<div style="display: flex; flex-wrap: wrap; gap: 10px;">
+    @foreach (var hero in allHeroes)
+    {
+        <img src="/images/@(hero.Name.Replace(" ", "_")).png"
+             style="width: 50px; height: 50px; cursor: grab;"
+             draggable="true"
+             ondragstart="drag(event)"
+             data-hero="@hero.Name" />
+    }
+</div>
+
+<!-- Drag/Drop Script -->
+<script>
+    let draggedHero = null;
+
+    function drag(event) {
+        draggedHero = event.target.dataset.hero;
+    }
+
+    function allowDrop(event) {
+        event.preventDefault();
+    }
+
+    function drop(event, slotIndex) {
+        event.preventDefault();
+        if (!draggedHero) return;
+
+        fetch(`/TeamBuilder/UpdateEnemyTeamSlot?slotIndex=${slotIndex}&heroName=${encodeURIComponent(draggedHero)}`, {
+            method: 'POST'
+        }).then(() => {
+            location.reload();
+        });
+    }
+</script>
