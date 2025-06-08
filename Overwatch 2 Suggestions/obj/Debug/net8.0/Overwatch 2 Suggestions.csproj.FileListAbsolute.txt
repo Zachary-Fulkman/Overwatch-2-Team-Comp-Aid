@@ -27,3 +27,4 @@ C:\Users\fulkm\source\repos\Overwatch 2 Suggestions\Overwatch 2 Suggestions\obj\
 C:\Users\fulkm\source\repos\Overwatch 2 Suggestions\Overwatch 2 Suggestions\obj\Debug\net8.0\Overwatch 2 Suggestions.pdb
 C:\Users\fulkm\source\repos\Overwatch 2 Suggestions\Overwatch 2 Suggestions\obj\Debug\net8.0\Overwatch 2 Suggestions.genruntimeconfig.cache
 C:\Users\fulkm\source\repos\Overwatch 2 Suggestions\Overwatch 2 Suggestions\obj\Debug\net8.0\ref\Overwatch 2 Suggestions.dll
+C:\Users\fulkm\source\repos\Overwatch 2 Suggestions\Overwatch 2 Suggestions\obj\Debug\net8.0\Overwatch 2 Suggestions.sourcelink.json

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="Overwatch-2-Team-Comp-Aid" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\fulkm\\source\\repos\\Overwatch\ 2\ Suggestions\\Overwatch\ 2\ Suggestions\\obj\\Release\\net8\.0\\PubTmp\\Out\\$" />
+  </parameter>
+</parameters>

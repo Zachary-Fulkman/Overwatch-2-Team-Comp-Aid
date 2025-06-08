@@ -1,0 +1,7 @@
+C:\Users\fulkm\source\repos\Overwatch 2 Suggestions\Overwatch 2 Suggestions\obj\Release\net8.0\PubTmp\Out\Overwatch 2 Suggestions.exe
+C:\Users\fulkm\source\repos\Overwatch 2 Suggestions\Overwatch 2 Suggestions\obj\Release\net8.0\PubTmp\Out\appsettings.Development.json
+C:\Users\fulkm\source\repos\Overwatch 2 Suggestions\Overwatch 2 Suggestions\obj\Release\net8.0\PubTmp\Out\appsettings.json
+C:\Users\fulkm\source\repos\Overwatch 2 Suggestions\Overwatch 2 Suggestions\obj\Release\net8.0\PubTmp\Out\Overwatch 2 Suggestions.dll
+C:\Users\fulkm\source\repos\Overwatch 2 Suggestions\Overwatch 2 Suggestions\obj\Release\net8.0\PubTmp\Out\Overwatch 2 Suggestions.deps.json
+C:\Users\fulkm\source\repos\Overwatch 2 Suggestions\Overwatch 2 Suggestions\obj\Release\net8.0\PubTmp\Out\Overwatch 2 Suggestions.runtimeconfig.json
+C:\Users\fulkm\source\repos\Overwatch 2 Suggestions\Overwatch 2 Suggestions\obj\Release\net8.0\PubTmp\Out\Overwatch 2 Suggestions.pdb

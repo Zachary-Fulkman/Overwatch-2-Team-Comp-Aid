@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Overwatch 2 Suggestions/1.0.0": {
+        "runtime": {
+          "Overwatch 2 Suggestions.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Overwatch 2 Suggestions/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
