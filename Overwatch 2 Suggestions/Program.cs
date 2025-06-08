@@ -9,10 +9,17 @@ namespace Overwatch_2_Suggestions
             // Add services to the container.
             builder.Services.AddControllersWithViews();
 
-            //Add session Service
-            builder.Services.AddSession();
+            
+            //Add distributed memory cache
+            builder.Services.AddDistributedMemoryCache();
 
-            builder.Services.AddControllersWithViews();
+            // Add session and configure options
+            builder.Services.AddSession(options =>
+            {
+                options.IdleTimeout = TimeSpan.FromMinutes(30);  // session timeout
+                options.Cookie.HttpOnly = true;                   // enhance security
+                options.Cookie.IsEssential = true;                // make session cookie essential
+            });
 
             var app = builder.Build();
 

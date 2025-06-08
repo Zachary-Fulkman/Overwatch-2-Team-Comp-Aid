@@ -1,20 +1,24 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Overwatch_2_Suggestions;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace Overwatch_2_Suggestions.Controllers
 {
     public class TeamBuilderController : Controller
     {
-        public static List<string> EnemyTeam = new();
-        public static string SelectedMap = "Kings_Row";
 
         public IActionResult Index()
         {
             var allHeroes = HeroRepository.GetHeroes();
-            var map = MapRepository.GetMaps().FirstOrDefault(m => m.Name.ToString() == SelectedMap);
+
+            var enemyTeam = HttpContext.Session.GetObject<List<string>>("EnemyTeam") ?? new List<string>();
+            var selectedMap = HttpContext.Session.GetString("SelectedMap") ?? "Kings_Row";
+
+            var map = MapRepository.GetMaps().FirstOrDefault(m => m.Name.ToString() == selectedMap);
             var scored = SuggestionEngine.ScoreHeroes(
                 allHeroes,
-                EnemyTeam,
+                enemyTeam,
                 map,
 
     new List<Hero>());
@@ -46,19 +50,23 @@ namespace Overwatch_2_Suggestions.Controllers
 
             ViewBag.AllHeroes = allHeroes;
             ViewBag.Maps = MapRepository.GetMaps();
-            ViewBag.SelectedMap = SelectedMap;
-            ViewBag.EnemyTeam = EnemyTeam;
+            ViewBag.SelectedMap = selectedMap;
+            ViewBag.EnemyTeam = enemyTeam;
             ViewBag.SuggestedTeam = suggested;
 
             return View();
         }
 
         [HttpPost]
-        public async Task<IActionResult> AddEnemy([FromBody] HeroInput input)
+        [HttpPost]
+        public IActionResult AddEnemy([FromBody] HeroInput input)
         {
-            if (EnemyTeam.Count < 5 && !EnemyTeam.Contains(input.HeroName))
+            var enemyTeam = HttpContext.Session.GetObject<List<string>>("EnemyTeam") ?? new List<string>();
+
+            if (enemyTeam.Count < 5 && !enemyTeam.Contains(input.HeroName))
             {
-                EnemyTeam.Add(input.HeroName);
+                enemyTeam.Add(input.HeroName);
+                HttpContext.Session.SetObject("EnemyTeam", enemyTeam); // save updated list
             }
 
             return Ok();
@@ -67,10 +75,14 @@ namespace Overwatch_2_Suggestions.Controllers
         [HttpPost]
         public IActionResult UpdateEnemyTeamSlot(int slotIndex, string heroName)
         {
-            while (EnemyTeam.Count <= slotIndex)
-                EnemyTeam.Add(null);
+            var enemyTeam = HttpContext.Session.GetObject<List<string>>("EnemyTeam") ?? new List<string>();
 
-            EnemyTeam[slotIndex] = heroName;
+            while (enemyTeam.Count <= slotIndex)
+                enemyTeam.Add(null);
+
+            enemyTeam[slotIndex] = heroName;
+            HttpContext.Session.SetObject("EnemyTeam", enemyTeam); // save back
+
             return Ok();
         }
 
@@ -82,7 +94,7 @@ namespace Overwatch_2_Suggestions.Controllers
         [HttpPost]
         public IActionResult SetMap(string mapName)
         {
-            SelectedMap = mapName;
+            HttpContext.Session.SetString("SelectedMap", mapName);
             return RedirectToAction("Index");
         }
     }
