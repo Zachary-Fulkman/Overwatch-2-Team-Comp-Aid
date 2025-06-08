@@ -1,6 +1,6 @@
 Use this link to visit the Overwatch 2 Team Comp Aid: https://overwatch-2-team-comp-aid-efh7cecqcpbxckhy.canadacentral-01.azurewebsites.net/TeamBuilder
 
-Next clcik on Team builder on the top left corner of the page.
+Next click on Team builder on the top left corner of the page.
 
 Drag and drop heroes from the bottom "All Heroes" section to the "Enemy Team" slots on the left to see your suggested team on the right!
 
