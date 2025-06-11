@@ -3,24 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\fulkm\\source\\repos\\Overwatch 2 Suggestions\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{01FD1936-0E46-4348-AFAE-FD19F08A8099}|Overwatch 2 Suggestions\\Overwatch 2 Suggestions.csproj|c:\\users\\fulkm\\source\\repos\\overwatch 2 suggestions\\overwatch 2 suggestions\\controllers\\teambuildercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{01FD1936-0E46-4348-AFAE-FD19F08A8099}|Overwatch 2 Suggestions\\Overwatch 2 Suggestions.csproj|solutionrelative:overwatch 2 suggestions\\controllers\\teambuildercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{01FD1936-0E46-4348-AFAE-FD19F08A8099}|Overwatch 2 Suggestions\\Overwatch 2 Suggestions.csproj|c:\\users\\fulkm\\source\\repos\\overwatch 2 suggestions\\overwatch 2 suggestions\\views\\teambuilder\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{01FD1936-0E46-4348-AFAE-FD19F08A8099}|Overwatch 2 Suggestions\\Overwatch 2 Suggestions.csproj|solutionrelative:overwatch 2 suggestions\\views\\teambuilder\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{01FD1936-0E46-4348-AFAE-FD19F08A8099}|Overwatch 2 Suggestions\\Overwatch 2 Suggestions.csproj|c:\\users\\fulkm\\source\\repos\\overwatch 2 suggestions\\overwatch 2 suggestions\\sessionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{01FD1936-0E46-4348-AFAE-FD19F08A8099}|Overwatch 2 Suggestions\\Overwatch 2 Suggestions.csproj|solutionrelative:overwatch 2 suggestions\\sessionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{01FD1936-0E46-4348-AFAE-FD19F08A8099}|Overwatch 2 Suggestions\\Overwatch 2 Suggestions.csproj|c:\\users\\fulkm\\source\\repos\\overwatch 2 suggestions\\overwatch 2 suggestions\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{01FD1936-0E46-4348-AFAE-FD19F08A8099}|Overwatch 2 Suggestions\\Overwatch 2 Suggestions.csproj|solutionrelative:overwatch 2 suggestions\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{01FD1936-0E46-4348-AFAE-FD19F08A8099}|Overwatch 2 Suggestions\\Overwatch 2 Suggestions.csproj|c:\\users\\fulkm\\source\\repos\\overwatch 2 suggestions\\overwatch 2 suggestions\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{01FD1936-0E46-4348-AFAE-FD19F08A8099}|Overwatch 2 Suggestions\\Overwatch 2 Suggestions.csproj|solutionrelative:overwatch 2 suggestions\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{01FD1936-0E46-4348-AFAE-FD19F08A8099}|Overwatch 2 Suggestions\\Overwatch 2 Suggestions.csproj|c:\\users\\fulkm\\source\\repos\\overwatch 2 suggestions\\overwatch 2 suggestions\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{01FD1936-0E46-4348-AFAE-FD19F08A8099}|Overwatch 2 Suggestions\\Overwatch 2 Suggestions.csproj|solutionrelative:overwatch 2 suggestions\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{01FD1936-0E46-4348-AFAE-FD19F08A8099}|Overwatch 2 Suggestions\\Overwatch 2 Suggestions.csproj|c:\\users\\fulkm\\source\\repos\\overwatch 2 suggestions\\overwatch 2 suggestions\\herorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{01FD1936-0E46-4348-AFAE-FD19F08A8099}|Overwatch 2 Suggestions\\Overwatch 2 Suggestions.csproj|solutionrelative:overwatch 2 suggestions\\herorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{01FD1936-0E46-4348-AFAE-FD19F08A8099}|Overwatch 2 Suggestions\\Overwatch 2 Suggestions.csproj|c:\\users\\fulkm\\source\\repos\\overwatch 2 suggestions\\overwatch 2 suggestions\\controllers\\teambuildercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01FD1936-0E46-4348-AFAE-FD19F08A8099}|Overwatch 2 Suggestions\\Overwatch 2 Suggestions.csproj|solutionrelative:overwatch 2 suggestions\\controllers\\teambuildercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{01FD1936-0E46-4348-AFAE-FD19F08A8099}|Overwatch 2 Suggestions\\Overwatch 2 Suggestions.csproj|c:\\users\\fulkm\\source\\repos\\overwatch 2 suggestions\\overwatch 2 suggestions\\maprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -31,12 +27,16 @@
       "RelativeMoniker": "D:0:0:{01FD1936-0E46-4348-AFAE-FD19F08A8099}|Overwatch 2 Suggestions\\Overwatch 2 Suggestions.csproj|solutionrelative:overwatch 2 suggestions\\heroscore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{01FD1936-0E46-4348-AFAE-FD19F08A8099}|Overwatch 2 Suggestions\\Overwatch 2 Suggestions.csproj|c:\\users\\fulkm\\source\\repos\\overwatch 2 suggestions\\overwatch 2 suggestions\\views\\teambuilder\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{01FD1936-0E46-4348-AFAE-FD19F08A8099}|Overwatch 2 Suggestions\\Overwatch 2 Suggestions.csproj|solutionrelative:overwatch 2 suggestions\\views\\teambuilder\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{01FD1936-0E46-4348-AFAE-FD19F08A8099}|Overwatch 2 Suggestions\\Overwatch 2 Suggestions.csproj|c:\\users\\fulkm\\source\\repos\\overwatch 2 suggestions\\overwatch 2 suggestions\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01FD1936-0E46-4348-AFAE-FD19F08A8099}|Overwatch 2 Suggestions\\Overwatch 2 Suggestions.csproj|solutionrelative:overwatch 2 suggestions\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{01FD1936-0E46-4348-AFAE-FD19F08A8099}|Overwatch 2 Suggestions\\Overwatch 2 Suggestions.csproj|c:\\users\\fulkm\\source\\repos\\overwatch 2 suggestions\\overwatch 2 suggestions\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{01FD1936-0E46-4348-AFAE-FD19F08A8099}|Overwatch 2 Suggestions\\Overwatch 2 Suggestions.csproj|solutionrelative:overwatch 2 suggestions\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{01FD1936-0E46-4348-AFAE-FD19F08A8099}|Overwatch 2 Suggestions\\Overwatch 2 Suggestions.csproj|c:\\users\\fulkm\\source\\repos\\overwatch 2 suggestions\\overwatch 2 suggestions\\sessionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01FD1936-0E46-4348-AFAE-FD19F08A8099}|Overwatch 2 Suggestions\\Overwatch 2 Suggestions.csproj|solutionrelative:overwatch 2 suggestions\\sessionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01FD1936-0E46-4348-AFAE-FD19F08A8099}|Overwatch 2 Suggestions\\Overwatch 2 Suggestions.csproj|c:\\users\\fulkm\\source\\repos\\overwatch 2 suggestions\\overwatch 2 suggestions\\herorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01FD1936-0E46-4348-AFAE-FD19F08A8099}|Overwatch 2 Suggestions\\Overwatch 2 Suggestions.csproj|solutionrelative:overwatch 2 suggestions\\herorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{01FD1936-0E46-4348-AFAE-FD19F08A8099}|Overwatch 2 Suggestions\\Overwatch 2 Suggestions.csproj|c:\\users\\fulkm\\source\\repos\\overwatch 2 suggestions\\overwatch 2 suggestions\\map.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -54,69 +54,72 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "SessionExtensions.cs",
               "DocumentMoniker": "C:\\Users\\fulkm\\source\\repos\\Overwatch 2 Suggestions\\Overwatch 2 Suggestions\\SessionExtensions.cs",
               "RelativeDocumentMoniker": "Overwatch 2 Suggestions\\SessionExtensions.cs",
               "ToolTip": "C:\\Users\\fulkm\\source\\repos\\Overwatch 2 Suggestions\\Overwatch 2 Suggestions\\SessionExtensions.cs",
               "RelativeToolTip": "Overwatch 2 Suggestions\\SessionExtensions.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-08T01:03:21.17Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 1,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\fulkm\\source\\repos\\Overwatch 2 Suggestions\\Overwatch 2 Suggestions\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Overwatch 2 Suggestions\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\Users\\fulkm\\source\\repos\\Overwatch 2 Suggestions\\Overwatch 2 Suggestions\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Overwatch 2 Suggestions\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAACcAAAAAAAAAAAAAAFsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACgAAAAAAAAAAAAAAEkAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-07T16:11:46.332Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\fulkm\\source\\repos\\Overwatch 2 Suggestions\\Overwatch 2 Suggestions\\Views\\TeamBuilder\\Index.cshtml",
-              "RelativeDocumentMoniker": "Overwatch 2 Suggestions\\Views\\TeamBuilder\\Index.cshtml",
-              "ToolTip": "C:\\Users\\fulkm\\source\\repos\\Overwatch 2 Suggestions\\Overwatch 2 Suggestions\\Views\\TeamBuilder\\Index.cshtml",
-              "RelativeToolTip": "Overwatch 2 Suggestions\\Views\\TeamBuilder\\Index.cshtml",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAAAGUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-07T16:09:24.156Z"
+              "WhenOpened": "2025-06-07T16:11:46.332Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\fulkm\\source\\repos\\Overwatch 2 Suggestions\\Overwatch 2 Suggestions\\Views\\TeamBuilder\\Index.cshtml",
+              "RelativeDocumentMoniker": "Overwatch 2 Suggestions\\Views\\TeamBuilder\\Index.cshtml",
+              "ToolTip": "C:\\Users\\fulkm\\source\\repos\\Overwatch 2 Suggestions\\Overwatch 2 Suggestions\\Views\\TeamBuilder\\Index.cshtml*",
+              "RelativeToolTip": "Overwatch 2 Suggestions\\Views\\TeamBuilder\\Index.cshtml*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-07T16:09:24.156Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "TeamBuilderController.cs",
               "DocumentMoniker": "C:\\Users\\fulkm\\source\\repos\\Overwatch 2 Suggestions\\Overwatch 2 Suggestions\\Controllers\\TeamBuilderController.cs",
               "RelativeDocumentMoniker": "Overwatch 2 Suggestions\\Controllers\\TeamBuilderController.cs",
               "ToolTip": "C:\\Users\\fulkm\\source\\repos\\Overwatch 2 Suggestions\\Overwatch 2 Suggestions\\Controllers\\TeamBuilderController.cs",
               "RelativeToolTip": "Overwatch 2 Suggestions\\Controllers\\TeamBuilderController.cs",
-              "ViewState": "AgIAAEsAAAAAAAAAAAAqwGAAAABCAAAAAAAAAA==",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAowF0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-07T16:07:08.524Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\fulkm\\source\\repos\\Overwatch 2 Suggestions\\Overwatch 2 Suggestions\\HomeController.cs",
               "RelativeDocumentMoniker": "Overwatch 2 Suggestions\\HomeController.cs",
               "ToolTip": "C:\\Users\\fulkm\\source\\repos\\Overwatch 2 Suggestions\\Overwatch 2 Suggestions\\HomeController.cs",
               "RelativeToolTip": "Overwatch 2 Suggestions\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T15:51:29.041Z"
+              "WhenOpened": "2025-06-07T15:51:29.041Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -126,26 +129,27 @@
               "RelativeDocumentMoniker": "Overwatch 2 Suggestions\\Program.cs",
               "ToolTip": "C:\\Users\\fulkm\\source\\repos\\Overwatch 2 Suggestions\\Overwatch 2 Suggestions\\Program.cs",
               "RelativeToolTip": "Overwatch 2 Suggestions\\Program.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAgwAwAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAAQAAAAAAAAAAAA1wCsAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-07T15:49:04.958Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "HeroScore.cs",
               "DocumentMoniker": "C:\\Users\\fulkm\\source\\repos\\Overwatch 2 Suggestions\\Overwatch 2 Suggestions\\HeroScore.cs",
               "RelativeDocumentMoniker": "Overwatch 2 Suggestions\\HeroScore.cs",
               "ToolTip": "C:\\Users\\fulkm\\source\\repos\\Overwatch 2 Suggestions\\Overwatch 2 Suggestions\\HeroScore.cs",
               "RelativeToolTip": "Overwatch 2 Suggestions\\HeroScore.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAIwEgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T15:42:16.434Z"
+              "WhenOpened": "2025-06-07T15:42:16.434Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "MapRepository.cs",
               "DocumentMoniker": "C:\\Users\\fulkm\\source\\repos\\Overwatch 2 Suggestions\\Overwatch 2 Suggestions\\MapRepository.cs",
               "RelativeDocumentMoniker": "Overwatch 2 Suggestions\\MapRepository.cs",
@@ -153,11 +157,12 @@
               "RelativeToolTip": "Overwatch 2 Suggestions\\MapRepository.cs",
               "ViewState": "AgIAAI4AAAAAAAAAAAAgwC8AAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T15:26:27.557Z"
+              "WhenOpened": "2025-06-07T15:26:27.557Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "HeroRepository.cs",
               "DocumentMoniker": "C:\\Users\\fulkm\\source\\repos\\Overwatch 2 Suggestions\\Overwatch 2 Suggestions\\HeroRepository.cs",
               "RelativeDocumentMoniker": "Overwatch 2 Suggestions\\HeroRepository.cs",
@@ -165,7 +170,8 @@
               "RelativeToolTip": "Overwatch 2 Suggestions\\HeroRepository.cs",
               "ViewState": "AgIAAGIBAAAAAAAAAAAiwHYBAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-03T23:22:25.202Z"
+              "WhenOpened": "2025-06-03T23:22:25.202Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",

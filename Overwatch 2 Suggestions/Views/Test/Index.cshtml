@@ -1,4 +1,6 @@
-﻿@*
+﻿@inject Microsoft.AspNetCore.Antiforgery.IAntiforgery Antiforgery
+
+@*
     For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 *@
 @{
@@ -13,6 +15,7 @@
 
 
 <h2>Overwatch 2 Team Builder</h2>
+<button type="button">Start Over</button>
 
 <div style="display: flex; justify-content: space-between; gap: 40px; padding-bottom: 30px; align-items: flex-start;">
 
@@ -46,8 +49,8 @@
                 }
             </select>
         </form>
-        <form method="post" asp-controller="TeamBuilder" asp-action="Reset">
-        <button id="myButton" style="margin-top: 50px;" type="submit">Start Over</button>
+        <form method="post" asp-controller="TeamBuilder" asp-action="RefreshPage">
+            <button style="margin-top: 50px;" type="submit">Refresh Page</button>
         </form>
     </div>
 
@@ -81,6 +84,11 @@
 
 <!-- Drag/Drop Script -->
 <script>
+    // Get the anti-forgery token value from server and store it in a JS variable
+    const antiForgeryToken = '@Antiforgery.GetAndStoreTokens(Context).RequestToken';
+</script>
+
+<script>
     let draggedHero = null;
 
     function drag(event) {
@@ -96,7 +104,10 @@
         if (!draggedHero) return;
 
         fetch(`/TeamBuilder/UpdateEnemyTeamSlot?slotIndex=${slotIndex}&heroName=${encodeURIComponent(draggedHero)}`, {
-            method: 'POST'
+            method: 'POST',
+            headers: {
+                RequestVerificationToken
+            }
         }).then(() => {
             location.reload();
         });

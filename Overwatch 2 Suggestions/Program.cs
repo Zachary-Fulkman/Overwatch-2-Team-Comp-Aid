@@ -41,7 +41,7 @@ namespace Overwatch_2_Suggestions
 
             app.MapControllerRoute(
                 name: "default",
-                pattern: "{controller=Home}/{action=Index}/{id?}");
+                pattern: "{controller=TeamBuilder}/{action=Index}/{id?}");
 
             app.Run();
         }

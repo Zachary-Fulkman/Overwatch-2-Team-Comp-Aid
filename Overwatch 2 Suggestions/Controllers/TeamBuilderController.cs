@@ -86,6 +86,13 @@ namespace Overwatch_2_Suggestions.Controllers
             return Ok();
         }
 
+        [HttpPost]
+        public IActionResult Reset()
+        {
+            HttpContext.Session.Clear(); // Clears all session data (enemy team, map, etc.)
+            return RedirectToAction("Index");
+        }
+
         public class HeroInput
         {
             public string HeroName { get; set; }
