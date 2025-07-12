@@ -13,4 +13,4 @@ RUN dotnet publish -c Release -o /app
 FROM base AS final
 WORKDIR /app
 COPY --from=build /app ./
-ENTRYPOINT ["dotnet", "Overwatch_2_Suggestions.dll"]
+ENTRYPOINT ["dotnet", "Overwatch 2 Suggestions.dll"]
