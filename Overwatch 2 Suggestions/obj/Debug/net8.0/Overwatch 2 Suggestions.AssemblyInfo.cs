@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Overwatch 2 Suggestions")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e9b73e99fc0463d9d1c88ac4c26b4a589e2ed74a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+509ab17f81c399baff33f5ce137602f7864386a0")]
 [assembly: System.Reflection.AssemblyProductAttribute("Overwatch 2 Suggestions")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Overwatch 2 Suggestions")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
